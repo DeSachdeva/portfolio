@@ -77,3 +77,35 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 380px) {
   body { font-size: 14px; }
 }
+
+/* ── Mobile global fixes ── */
+@media (max-width: 768px) {
+  /* Prevent horizontal overflow */
+  body { overflow-x: hidden; }
+
+  /* Navbar padding */
+  nav > div > div { padding: 0 1.25rem !important; }
+
+  /* Page inner padding */
+  .page-inner { padding: 2rem 1.25rem !important; }
+
+  /* Hero padding */
+  section[style*="minHeight: 100vh"] { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+
+  /* Stats wrap */
+  .hero-stats { gap: 1.25rem !important; }
+
+  /* Research/patent tabs */
+  button[style*="fit-content"] { width: 100% !important; }
+}
+
+@media (max-width: 480px) {
+  /* Skills grid */
+  .skills-grid { grid-template-columns: 1fr !important; }
+
+  /* Education grid */
+  .edu-grid { grid-template-columns: 1fr !important; }
+
+  /* Stats bar in research page */
+  .stats-bar > div { padding: 0.9rem 0.5rem !important; }
+}

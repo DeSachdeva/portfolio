@@ -9,8 +9,8 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Skills />
+        {/* <About /> */}
+        {/* <Skills /> */}
       </main>
     </>
   )
