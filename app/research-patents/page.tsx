@@ -7,12 +7,12 @@ import { patents } from '@/data/patents'
 export default function ResearchPatentsPage() {
   const [expandedPaper, setExpandedPaper] = useState<string | null>(null)
   const [expandedPatent, setExpandedPatent] = useState<string | null>(null)
-  const papersRef = useRef<HTMLDivElement>(null)
-  const patentsRef = useRef<HTMLDivElement>(null)
+  const papersRef = useRef<HTMLDivElement | null>(null)
+  const patentsRef = useRef<HTMLDivElement | null>(null)
 
-  const scrollTo = (ref: React.RefObject<HTMLDivElement>) => {
+  const scrollTo = (ref: React.RefObject<HTMLDivElement | null>) => {
     ref.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
+}
 
   return (
     <>
