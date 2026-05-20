@@ -27,6 +27,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: 'Devansh Sachdeva — CSE Student & Builder',
   description: 'B.Tech CSE student building real solutions — from anti-counterfeit drug systems to AI-assisted learning platforms.',
+  metadataBase: new URL('https://desachdeva.qzz.io'),
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
