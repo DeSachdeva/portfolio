@@ -113,7 +113,7 @@ export const certifications: Certification[] = [
     name: 'Microsoft Azure AI Services',
     issuer: 'Microsoft',
     year: '2024',
-    credlyUrl: null, // paste your Credly badge URL here
+    credlyUrl: 'https://www.credly.com/badges/70d7d697-846a-465a-8193-1f053a4258c5/accept', // paste your Credly badge URL here
     certificatePath: null,
   },
 ]
