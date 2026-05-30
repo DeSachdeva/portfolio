@@ -105,14 +105,14 @@ export const certifications: Certification[] = [
   {
     name: 'Cisco CyberSecurity',
     issuer: 'Cisco',
-    year: '2024',
+    year: '2025',
     credlyUrl: null, // paste your Credly badge URL here
-    certificatePath: null, // '/certificates/cisco-cybersecurity.jpg'
+    certificatePath: '/certificates/1748025107371.jpg',
   },
   {
     name: 'Microsoft Azure AI Services',
     issuer: 'Microsoft',
-    year: '2024',
+    year: '2025',
     credlyUrl: 'https://www.credly.com/badges/70d7d697-846a-465a-8193-1f053a4258c5/accept', // paste your Credly badge URL here
     certificatePath: '/certificates/I2CSUpdate20250523-26-8m0qsq.pdf',
   },
